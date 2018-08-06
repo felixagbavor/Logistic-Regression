@@ -1,0 +1,1 @@
+A complete impelementation of the Logistic regression classification algorithm
