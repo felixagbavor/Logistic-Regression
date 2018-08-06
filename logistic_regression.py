@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
-
+from sklearn.metrics import accuracy_score
 
 df = pd.read_csv('train.csv')
 df = df[['Survived','Name', 'Pclass', 'Age', 'Sex', 'Fare', 'Parch','SibSp']]
